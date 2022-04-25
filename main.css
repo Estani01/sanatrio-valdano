@@ -44,8 +44,11 @@
     text-align: center;
 }
 .home-nav li{
-    
-    
+    border: solid 2px;
+    background-color: red;
+}
+.home-nav li:hover{
+    background-color: aqua;
 }
 
 .home-main{
