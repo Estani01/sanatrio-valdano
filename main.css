@@ -1,0 +1,437 @@
+.contenedor-principal{
+    background-color: azure;
+    display: grid;
+
+
+
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main aside"
+    "main aside"
+    "footer footer" 
+    ;
+
+}
+
+.home-header{
+    grid-area: header;
+    background-color: rgb(87, 87, 231);
+    text-align: center;
+    border: solid blue;
+    text-decoration: underline 1px;
+
+}
+.home-header div{
+  text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+.home-nav{
+    grid-area: nav;
+    background-color: rgb(236, 231, 231);
+    text-align: center;
+    
+}
+.home-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.home-nav li{
+    
+    
+}
+
+.home-main{
+    grid-area: main;
+    background-color:  rgb(236, 231, 231);
+    text-align: center;
+    justify-content: space-around;
+    padding: 4px;
+    margin: 4px;
+   
+    
+}
+.home-main p{
+    text-align: left;
+}
+.home-main section{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-servicios-medicos{
+    
+}
+
+#section-servicios-medicos{
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.home-aside{
+    grid-area: aside;
+    background-color:  rgb(236, 231, 231);
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    text-align: center;
+}
+.home-aside div{
+    border: solid 2px blue;
+    background-color:rgb(87, 87, 231) ;
+    padding: 8px;
+    
+}
+.home-footer{
+    grid-area: footer;
+    background-color: rgb(87, 87, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 2px  rgb(56, 56, 201)  ; 
+}
+
+
+
+.contenedor-psicologos{
+    background-color:antiquewhite;
+}
+
+
+
+
+
+.psi-header{
+    background-color: rgb(216, 66, 66);
+    text-align: center;
+    text-decoration: underline;
+    border: double 8px black;
+
+}
+
+.psi-header div{
+    text-align: center;
+    align-items: center;
+}
+
+.psi-nav{
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+.psi-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.psi-nav li{
+        text-align: center;
+}
+
+.psi-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.psi-section-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.psi-section-1 div{
+    padding: 3px;
+    margin: 10px 5px;
+    border: solid 3px ;
+    background-color: rgb(216, 66, 66)
+}
+
+.psi-section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    border: solid 4px; 
+}
+
+.div-psi{
+    margin: 3px;
+    padding: 3px;
+    border: solid 2px red;
+}
+
+.psi-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(216, 66, 66);
+    margin: 5px 15px;
+    border: double 8px black;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+.contenedor-infopaciente{
+    background-color: beige;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main aside"
+    "main aside"
+    "footer footer"
+    
+}
+
+
+.infopaciente-header{
+    grid-area: header;
+   background-image: url(../desafio-4/MULTIMEDIA/vacunacion.jpg);
+   background-size: contain;
+   background-repeat: repeat;
+    text-align: center;
+    color: antiquewhite;
+    
+   
+}
+
+
+.infopaciente-nav{
+    grid-area: nav;
+    background-color:rgb(236, 231, 231);
+
+}
+.infopaciente-nav ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.infopaciente-nav li{
+    padding: 6px;
+    color: blue;
+
+}
+
+
+
+
+
+.infopaciente-main{
+    grid-area: main;
+    margin: 9px;
+    padding: 6px;
+    text-align: center;
+    font-size: 22px;
+}
+.infopaciente-main table{
+    border: solid 3px;
+}
+.infopaciente-aside{
+    grid-area: aside;
+    border: solid;
+    padding: 8px 4px;
+    margin: 5px;
+}
+.infopaciente-footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: ;
+    margin: 5px 15px;
+   
+    padding: 10px;
+}
+
+}
+
+.historia-header{
+    background-color:red;
+}
+
+.historia-main{
+    text-align: center;
+   
+    margin: 25px ;
+    padding: 50px;
+}
+
+}
+
+.derechos-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.historia-main img{
+  width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1320px){
+
+    .contenedor-principal{
+        display: grid;
+        grid-template-areas: 
+        "header "
+        "nav "
+        "main "
+        "aside"
+        "footer"
+        ;
+        margin: none;
+        border: none;
+        padding: none;
+    }
+
+    .home-nav  ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .home-header {
+        text-align: center;
+        font-size: 10px;
+        
+    }
+
+    .div-formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-ubicacion iframe{
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .home-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-servicios-medicos img{
+        width: 350px;
+        height: 300px;
+    }
+    .home-main p{
+        font-size: 20px;
+    }
+
+
+
+
+        .contenedor-infopaciente{
+           grid-template-areas:
+           "header header"
+           "nav nav"
+           "main main"
+           "aside aside"
+           "footer footer" ;        
+        }
+
+    .infopaciente-nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .infopaciente-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .infopaciente-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    .infopaciente-main img{
+        width: 300px;
+        height: 400px;
+    }
+
+    .contenedor-psicologos{
+    
+    }
+    
+    .psi-nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .psi-section-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .psi-section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .psi-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width:1486px) {
+    .div-servicios-medicos img{
+        width: 300px;
+        height: 250px;
+    }
+
+    
+    }
+    
+}
+@media screen and (min-width: 525px) {
+    .div-psi{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    }
+    
+}
+    
+}
+
+
+
