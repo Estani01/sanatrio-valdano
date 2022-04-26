@@ -78,8 +78,15 @@
     flex-direction: row;
    flex-wrap: wrap;
     justify-content: space-between;
+    animation-name: movimiento-uno;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
     
-    
+}
+@keyframes movimiento-uno{
+    50%{
+        background-color: gray;
+    }
 }
 
 .home-aside{
